@@ -1,0 +1,117 @@
+<!-- \\ Begin Contact Section \\ -->
+<div class="Contact_sec" id="contact">
+    <div class="Contactside">
+        <div class="Center">
+            <h2>Contact Us</h2>
+            <br>
+            <div class="Line"></div>
+        </div>
+
+    </div>
+
+    <div class="Map">
+
+        <!--<div id="GoogleMap"></div>-->
+        <div id="gmap_canvas1">
+
+            <script>
+                function initMap() {
+                    var myOptions = {zoom:17,center:new google.maps.LatLng(23.030297049088603,72.67393616665231),mapTypeId: google.maps.MapTypeId.ROADMAP};
+                    map = new google.maps.Map(document.getElementById("gmap_canvas1"), myOptions);
+                    marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(23.030297049088603, 72.67393616665231)});
+                    infowindow = new google.maps.InfoWindow({content:"<b>Nirmal Engineers : Wood Machinery Manufacture</b><br/>12/13, Neelkanth Avenue, Nr. Palm Hotel, Sardar Patel Ring Rd,<br/>Odhav, Ahmedabad, Gujarat, India. Pin : 382415" });
+                    google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});
+                    infowindow.open(map,marker);
+                }
+            </script>
+            <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAB6vScN02nQySASagPYCdPR_efD2knaAg&callback=initMap">
+            </script>
+
+            <!--<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>-->
+            <!--<div style="overflow:hidden;height:500px;width:600px;">-->
+                <!--<div id="gmap_canvas" style="height:500px;width:600px;">-->
+                    <!--<style>#gmap_canvas img{max-width:none!important;background:none!important}</style>-->
+                    <!--<a class="google-map-code" href="http://www.themecircle.net" id="get-map-data">...</a>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<script type="text/javascript">-->
+                <!--function init_map()-->
+                <!--{var myOptions = {zoom:17,center:new google.maps.LatLng(23.030297049088603,72.67393616665231),mapTypeId: google.maps.MapTypeId.ROADMAP};-->
+                    <!--map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);-->
+                    <!--marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(23.030297049088603, 72.67393616665231)});-->
+                    <!--infowindow = new google.maps.InfoWindow({content:"<b>Nirmal Engineers : Wood Machinery Manufacture</b><br/>12/13, Neelkanth Avenue, Nr. Palm Hotel, Sardar Patel Ring Rd,<br/>Odhav, Ahmedabad, Gujarat, India. Pin : 382415" });-->
+                    <!--google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});-->
+                    <!--infowindow.open(map,marker);}-->
+                <!--google.maps.event.addDomListener(window, 'load', init_map);-->
+            <!--</script>-->
+        </div>
+
+    </div>
+
+    <!-- \\ Begin Get Section \\ -->
+    <div class="Get_sec">
+        <div class="Mid">
+
+            <!-- \\ Begin Right Side \\ -->
+            <div class="Rightside">
+                <h3>Get in touch !</h3>
+                <address>
+                    12/13, Neelkanth Avenue, Nr. Palm Hotel, Sardar Patel Ring Road, Odhav Circle,<br>Odhav, Ahemdabad, Gujarat, India. Pin : 382415.
+                </address>
+                <address class="Number">
+                    +91-9879185240, <br>+91-9429128003
+                </address>
+                <address class="Email">
+                    nirmalengineers1@gmail.com
+
+                    <ul>
+                        <li><a rel="nofollow" href="https://www.facebook.com/nirmalengineers1"
+                               target="_blank"><img src="img/facebook-icn.png" alt="image"></a></li>
+                        <!-- <li><a href="#"><img src="img/twitter-icn.png" alt="image"></a></li> -->
+                        <li><a href="https://plus.google.com/107570983368896654265" target="_blank"><img src="img/google-plus-icn.png" alt="image"></a></li>
+                    </ul>
+                </address>
+                <div class="clear"></div>
+
+            </div>
+            <!-- // End Right Side // -->
+        </div>
+
+        <!-- \\ Begin Left Side \\ -->
+        <div class="Leftside">
+            <h3>Enquiry : </h3>
+            <form name="form123" action="php/mail.php" method="post">
+                <fieldset>
+                    <p>
+                        <input type="text" value="" name="name" placeholder="NAME / COMPANY NAME" class="field">
+                        <span id="msg_name"></span>
+                    </p>
+                    <p>
+                        <input type="text" value="" name="city" placeholder="CITY" class="field">
+                        <span id="msg_city"></span>
+                    </p>
+                    <p>
+                        <input type="email" value="" name="email" placeholder="EMAIL" class="field">
+                        <span id="msg_email"></span>
+                    </p>
+                    <p>
+                        <input type="number" value="" name="number" placeholder="CONTACT" class="field">
+                        <span id="msg_number"></span>
+                    </p>
+                    <p>
+                        <textarea cols="2" name="message" rows="2" placeholder="YOUR MESSAGE OR REQUIREMENT"></textarea>
+                        <span id="msg_message"></span>
+                    </p>
+                    <p>
+                        <input type="submit" value="send" class="button" onclick="return phpmail()">
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+
+    </div>
+    <!-- // End Get Section // -->
+
+</div>
+<!-- // End Contact Section // -->

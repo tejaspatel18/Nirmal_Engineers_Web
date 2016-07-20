@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <!-- <<Mobile Viewport Code>> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Nirmal Engineers</title>
+
+    <script src="js/jquery-3.0.0.min.js"></script>
+
+    <!--
+    November Template
+    http://www.templatemo.com/tm-473-november
+    -->
+
+    <!-- <<Attched Stylesheets>> -->
+    <link rel="stylesheet" href="css/theme.css" type="text/css"/>
+    <link rel="stylesheet" href="css/media.css" type="text/css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,600italic,400italic,800,700'
+          rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="dist/css/lightbox.min.css">
+</head>
+<body>
+
+<!-- for floating button to top ....right bootom -->
+<script type="text/javascript">
+    // create the back to top button
+    $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+
+    var amountScrolled = 300;
+
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > amountScrolled) {
+            $('a.back-to-top').fadeIn('slow');
+        } else {
+            $('a.back-to-top').fadeOut('slow');
+        }
+    });
+
+    $('a.back-to-top, a.simple-back-to-top').click(function () {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 2000);
+        return false;
+    });
+</script>
+
+
+<!-- \\ Begin Holder \\ -->
+<div class="DesignHolder">
+    <!-- \\ Begin Frame \\ -->
+    <div class="LayoutFrame">
+        <!-- \\ Begin Header \\ -->
+        <header>
+            <div class="Center">
+                <div class="site-logo">
+                    <!--<h1><a href="#">Nirmal</a></h1>-->
+                    <a href="#home">
+                        <img src="img/Logo.png" alt="image">
+                    </a>
+
+                    <p style="color:black;">The Quality Product</p>
+
+                </div>
+                <div id="mobile_sec">
+                    <div class="mobile"><i class="fa fa-bars"></i><i class="fa fa-times"></i></div>
+                    <div class="menumobile">
+                        <!-- \\ Begin Navigation \\ -->
+                        <nav class="Navigation">
+                            <ul>
+                                <li class="active">
+                                    <a href="#home">Home</a>
+                                    <span class="menu-item-bg"></span>
+                                </li>
+                                <li>
+                                    <a href="#products">Products</a>
+                                    <span class="menu-item-bg"></span>
+                                </li>
+                                <li>
+                                    <a href="#gallery">Gallery</a>
+                                    <span class="menu-item-bg"></span>
+                                </li>
+                                <li>
+                                    <a href="#aboutus">About Us</a>
+                                    <span class="menu-item-bg"></span>
+                                </li>
+                                <li>
+                                    <a href="#contact">Contact Us</a>
+                                    <span class="menu-item-bg"></span>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- // End Navigation // -->
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </header>
+        <!-- // End Header // -->
+        <!-- \\ Begin Banner Section \\ -->
+        <div id="firstpage_call">
+        <div class="Banner_sec" id="home">
+            <!--  \\ Begin banner Side -->
+            <div class="bannerside">
+                <div class="Center">
+                    <!--  \\ Begin Left Side -->
+                    <div class="leftside">
+                        <!--<h3>Responsive<span>Mobile Friendly</span></h3> -->
+                        <p><span>Nirmal Engineers</span> is a Manufacture and Assemble the latest wood machinery.</p>
+                        <p>Our Band Saw Machine is using for Wood, Cement Bricks, Plastic skrep and Metal Cutting.</p>
+                        <p>The machine are selling in all over india and also exported to BURMA, MALAYSIA, ALL AFRICAN and other countries.</p>
+                        <a href="#products">MORE DETAILS</a>
+                    </div>
+                    <!--  // End Left Side // -->
+                    <!--  \\ Begin Right Side -->
+                    <div class="rightside">
+                        <ul id="slider">
+                            <li>
+                                <div class="Slider">
+                                    <figure><img src="dwnld/cover/1.jpg" alt="image"></figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="Slider">
+                                    <figure><img src="dwnld/cover/2.jpg" alt="image"></figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="Slider">
+                                    <figure><img src="dwnld/cover/3.jpg" alt="image"></figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="Slider">
+                                    <figure><img src="dwnld/cover/4.jpg" alt="image"></figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="Slider">
+                                    <figure><img src="dwnld/cover/5.jpg" alt="image"></figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="Slider">
+                                    <figure><img src="dwnld/cover/6.jpg" alt="image"></figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="Slider">
+                                    <figure><img src="dwnld/cover/7.jpg" alt="image"></figure>
+                                </div>
+                            </li>
+                        </ul>
+                        <figure><img src="img/Shadow-img.png" alt="image" class="Shadow"></figure>
+                    </div>
+                    <!--  // End Right Side // -->
+                </div>
+            </div>
+            <!--  // End banner Side // -->
+            <div class="clear"></div>
+        </div>
+        </div>
+        <!-- // End Banner Section // -->
+
+        <!-- \\ Begin Container \\ -->
+        <div id="Container">
+
+            <div id="product_call">
+                <!-- \\ Begin About Section \\ -->
+                <div class="About_sec" id="products">
+                    <div class="Center">
+                        <h2>Products</h2>
+                        <br>
+                        <!-- <p>There are some products which we made for detail see below and for more detail contact us.<br>We delivers stunning machine in specific sizes. </p> -->
+                        <div class="Line"></div>
+                        <!-- \\ Begin Tab side \\ -->
+                        <div class="Tabside">
+                            <ul>
+                                <li><a href="javascript:;" class="tabLink activeLink" id="cont-1">Vertical Bandsaw<p style="position:absolute;">Machine</p></a></li>
+                                <li><a href="javascript:;" class="tabLink" id="cont-2">Horizontal Bandsaw<p style="position:absolute;">Machine</p></a></li>
+                                <li><a href="javascript:;" class="tabLink" id="cont-3">Circular Saw Table</a></li>
+                                <li><a href="javascript:;" class="tabLink" id="cont-4">Other Products</a></li>
+                            </ul>
+                            <div class="clear"></div>
+                            <div class="tabcontent" id="cont-1-1">
+                                <div class="TabImage">
+                                    <div class="imgfst">
+                                        <figure><a class="example-image-link" href="dwnld/product/Verticle Band Saw Machine.jpg" data-lightbox="verticle" data-title="Vertical Bandsaw Machine"><img src="dwnld/product/Verticle Band Saw Machine.jpg" alt="image"></a></figure>
+                                    </div>
+                                    <!-- <div class="img2">
+                                         <figure><img src="img/about-img1.jpg" alt="image"></figure>
+                                     </div>-->
+                                </div>
+                                <div class="Description">
+                                    <h3><b> Vertical Bandsaw Machine<!-- <span>taciti sociosqu ad litora torquent per conubia</span> --></b></h3><br>
+                                    <h5><b><u>Description</u> :</b></h5>
+                                    <p><b>Band Wheels :</b> Wheels are made of best quality steel. Each is fitted in steel spodes of 3*1 diameter per engineering view. The wheel finishing is imparted by the grinding machine to the imfuse accuracy, balancing and durability therein.</p><br>
+                                    <p><b>Cast Iron Table :</b> Extra heavy graded cast table finaly machined to reduce friction.</p><br>
+                                    <p><b> Wheel Saft body :</b>  Made from M.S Casting and turning by CNC Machine.</p>
+                                    <!-- <p>Phasellus pretium elementum rhoncus. Aenean sit amet odio eu ante volutpat rutrum. Vestibulum ullamcorper faucibus orci, in blandit massa fringilla at. Nulla in fermentum eros. Suspendisse vitae aliquam metus.</p> -->
+
+                                    <div class="tbl_verticle">
+                                        <table cellpadding="0" cellspacing="0">
+                                            <thead>
+                                            <tr>
+                                                <th class="thth">Model/Size</th>
+                                                <th class="trtr">18</th>
+                                                <th class="trtr1">24</th>
+                                                <th class="trtr2">30</th>
+                                                <th class="trtr3">36</th>
+                                                <th class="trtr4">39</th>
+                                                <th class="trtr5">42</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>Wheel Size</td>
+                                                <td>18</td>
+                                                <td>24</td>
+                                                <td>30</td>
+                                                <td>36</td>
+                                                <td>39</td>
+                                                <td>42</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Table Size</td>
+                                                <td>24*24</td>
+                                                <td>24*24 or<br>30*30</td>
+                                                <td>30*30</td>
+                                                <td>36*36</td>
+                                                <td>42*42</td>
+                                                <td>42*42</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Blade Length</td>
+                                                <td>15'6"</td>
+                                                <td>16'8"</td>
+                                                <td>18'6"</td>
+                                                <td>19'6"</td>
+                                                <td>22'9"</td>
+                                                <td>23'3"</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Power Req Motor (HP)</td>
+                                                <td>5</td>
+                                                <td>5</td>
+                                                <td>7.5</td>
+                                                <td>10</td>
+                                                <td>12.5 to 15</td>
+                                                <td>12.5 to 15</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Wheel (RPM)</td>
+                                                <td>600</td>
+                                                <td>600</td>
+                                                <td>500</td>
+                                                <td>500</td>
+                                                <td>540</td>
+                                                <td>540</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="tabcontent hide" id="cont-2-1">
+                                <div class="TabImage">
+                                    <div class="img123">
+                                        <figure><a class="example-image-link" href="dwnld/product/Horizontal Trolly Machine_big.jpg" data-lightbox="horizontal" data-title="Horizontal Trolly Machine"><img src="dwnld/product/Horizontal Trolly Machine.jpg" alt="image"></a></figure>
+                                    </div>
+                                    <div class="img123">
+                                        <figure><a class="example-image-link" href="dwnld/product/Trolly_big.jpg" data-lightbox="horizontal" data-title="Trolly"><img src="dwnld/product/Trolly.jpg" alt="image"></a></figure>
+                                    </div>
+                                    <!--<div class="img2">
+                                        <figure><img src="img/about-img1.jpg" alt="image"></figure>
+                                    </div>-->
+                                </div>
+                                <div class="Description">
+                                    <h3><b> Horizontal Bandsaw Machine<!-- <span>taciti sociosqu ad litora torquent per conubia</span> --></b></h3><br>
+                                    <h5><b><u>Description</u> :</b></h5>
+                                    <p><b>Band Wheels :</b> Wheels are made of best quality steel. Each is fitted in steel spodes of 3*1 diameter per engineering view. The wheel finishing is imparted by the grinding machine to the imfuse accuracy, balancing and durability therein.</p><br>
+                                    <p><b> Wheel Saft body :</b>  Made from M.S Casting and turning by CNC Machine.</p>
+                                    <!-- <p>Phasellus pretium elementum rhoncus. Aenean sit amet odio eu ante volutpat rutrum. Vestibulum ullamcorper faucibus orci, in blandit massa fringilla at. Nulla in fermentum eros. Suspendisse vitae aliquam metus.</p> -->
+
+                                    <div class="tbl_verticle">
+                                        <table cellpadding="0" cellspacing="0">
+                                            <thead>
+                                            <tr>
+                                                <th class="thth">Model/Size</th>
+                                                <th class="trtr">23/24</th>
+                                                <th class="trtr1">30</th>
+                                                <th class="trtr2">36</th>
+                                                <th class="trtr3">39</th>
+                                                <th class="trtr4">42</th>
+                                                <th class="trtr5">48</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>Wheel Size</td>
+                                                <td>24"</td>
+                                                <td>30"</td>
+                                                <td>36"</td>
+                                                <td>39"</td>
+                                                <td>42"</td>
+                                                <td>48</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Blade Length</td>
+                                                <td> </td>
+                                                <td> </td>
+                                                <td> </td>
+                                                <td>26'</td>
+                                                <td> </td>
+                                                <td> </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Motor</td>
+                                                <td>7.5</td>
+                                                <td>7.5</td>
+                                                <td>10</td>
+                                                <td>12.5 to 15</td>
+                                                <td>12.5 to 15</td>
+                                                <td>15</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Trolly Size</td>
+                                                <td>8'*3' or<br> 6'*211</td>
+                                                <td>8'*3'</td>
+                                                <td>10'*3' or<br> 12'*3.5'</td>
+                                                <td>12'*3.5'</td>
+                                                <td>12'*3.5' or<br> 16'*4'</td>
+                                                <td>16'*4'</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div></div>
+                            </div>
+                            <div class="tabcontent hide" id="cont-3-1">
+                                <div class="TabImage">
+                                    <div class="img1">
+                                        <figure><a class="example-image-link" href="dwnld/product/Circular Saw Table fix top.jpg" data-lightbox="circular" data-title="Circular Saw Table"><img src="dwnld/product/Circular Saw Table fix top.jpg" alt="image"></a></figure>
+
+                                    </div>
+                                    <div class="img1">
+                                        <figure><a class="example-image-link" href="dwnld/product/Circulat saw table with linear bearing.jpg" data-lightbox="circular" data-title="Circular Saw Table"><img src="dwnld/product/Circulat saw table with linear bearing.jpg" alt="image"></a></figure>
+
+                                    </div>
+                                    <!-- <div class="img2">
+                                         <figure><img src="img/about-img1.jpg" alt="image"></figure>
+                                     </div>-->
+                                </div>
+                                <div class="Description">
+                                    <h3><b> Circular Saw Table<!-- <span>taciti sociosqu ad litora torquent per conubia</span> --></b></h3><br>
+                                    <h5><b><u>Types</u> :</b></h5>
+                                    <p>(1) Circular Saw Table Fix Top</p>
+                                    <p>(2) Circular Saw Table with Trolly</p>
+                                    <p>(3) Circular Saw Table with Linear Bearing Sliding</p><br>
+
+                                    <h5><b><u>Description</u> :</b></h5>
+                                    <p>Usefull for wooden stick and cutting </p>
+                                    <p> <b>Trolly Size :-</b> As your choice.</p>
+                                    <p> <b>Frame Size :-</b> As your choice.</p>
+                                    <p> <b>Power :-</b> 1 to 2hp motor.</p>
+                                    <p> Machine will be supplied without Saw Cutter and Electric Motor.</p>
+                                </div>
+                            </div>
+                            <div class="tabcontent hide" id="cont-4-1">
+                                <div class="other">
+                                    <h1>Authorised Dealer of</h1>
+                                    <h2>(1) UMIYA : Umiya Engineering Works</h2>
+                                    <div class="umiya">
+                                        <ul>
+                                            <li>
+                                                <!-- click to open image mate body ma aa script <script src="dist/js/lightbox-plus-jquery.min.js"></script> and head ma aa css
+                                                <link rel="stylesheet" href="dist/css/lightbox.min.css"> -->
+
+                                                <a class="uuu" class="example-image-link" href="dwnld/umiya/Automatic Band saw blade grinder.jpg" data-lightbox="umiya" data-title="Automatic Band Saw Blade Grinder"><img src="dwnld\umiya\1.jpg">
+                                                    <p>Automatic Band Saw Blade Griender (Linear Motion / Linear Guide)</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="uuu" class="example-image-link" href="dwnld/umiya/Automatic Teeth setting machine.jpg" data-lightbox="umiya" data-title="Automatic Teeth Setting Machine"><img src="dwnld\umiya\2.jpg">
+                                                    <p>Automatic Teeth Setting Machine</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="uuu" class="example-image-link" href="dwnld/umiya/Wooden Log Puller.jpg" data-lightbox="umiya" data-title="Wooden Log Puller / Helical Gear type"><img src="dwnld\umiya\Wooden Log Puller.jpg">
+                                                    <p>Wooden Log Puller / Helical Gear type</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="uuu" class="example-image-link" href="dwnld/umiya/Bench Grinder.jpg" data-lightbox="umiya" data-title="Bench Grinder"><img src="dwnld\umiya\4.jpg">
+                                                    <p>Bench Grinder</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="uuu" class="example-image-link" href="dwnld/umiya/Saw Dust Blower.jpg" data-lightbox="umiya" data-title="Saw Dust Blower"><img src="dwnld\umiya\5.jpg">
+                                                    <p>Saw Dust Blower</p>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <h2>(2) PROCUT : Procut Engineering</h2>
+                                    <div class="procut">
+                                        <ul>
+                                            <li>
+                                                <a class="ppp" class="example-image-link" href="dwnld/procut/1.jpg" data-lightbox="procut" data-title="Auto Trolly Machine"><img src="dwnld\procut\1.jpg">
+                                                    <p>Auto Trolly Machine</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="ppp" class="example-image-link" href="dwnld/procut/2.jpg" data-lightbox="procut" data-title="Trolly Friend Machine"><img src="dwnld\procut\2.jpg">
+                                                    <p>Trolly Friend Machine</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="ppp" class="example-image-link" href="dwnld/procut/3.jpg" data-lightbox="procut" data-title="Eco-Top"><img src="dwnld\procut\3.jpg">
+                                                    <p>Eco-Top</p>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <h2>(3) KARAN : Karan Industries</h2>
+                                    <div class="karan">
+                                        <ul>
+                                            <li>
+                                                <a class="kkk" class="example-image-link" href="dwnld/karan/Automatic Band Saw Blade Sharpner.jpg" data-lightbox="karan" data-title="Automatic Band Saw Blade Sharpner (Linear Bearing System)"><img src="dwnld\karan\1.jpg">
+                                                    <p>Automatic Band Saw Blade Sharpner (Linear Bearing System)</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="kkk" class="example-image-link" href="dwnld/karan/Automatic Teeth Setting Machine.jpg" data-lightbox="karan" data-title="Automatic Teeth Setting Machine"><img src="dwnld\karan\2.jpg">
+                                                    <p>Automatic Teeth Setting Machine</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="kkk" class="example-image-link" href="dwnld/karan/Wooden Log Puller.jpg" data-lightbox="karan" data-title="Wooden Log Puller"><img src="dwnld\karan\3.jpg">
+                                                    <p>Wooden Log Puller</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="kkk" class="example-image-link" href="dwnld/karan/Welding Transformer.jpg" data-lightbox="karan" data-title="Welding Transformer"><img src="dwnld\karan\4.jpg">
+                                                    <p>Welding Transformer</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="kkk" class="example-image-link" href="dwnld/karan/Blade Cutter with Vice.jpg" data-lightbox="karan" data-title="Blade Cutter with Vice"><img src="dwnld\karan\5.jpg">
+                                                    <p>Blade Cutter with Vice</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="kkk" class="example-image-link" href="dwnld/karan/Bench Grinder.jpg" data-lightbox="karan" data-title="Bench Grinder"><img src="dwnld\karan\6.jpg">
+                                                    <p>Bench Grinder</p>
+                                                </a>
+                                            </li>
+                                            <li style="overflow:scroll;">
+                                                <a class="kkk" class="example-image-link" href="dwnld/karan/Saw Dust Blower without Motor.jpg" data-lightbox="karan" data-title="Saw Dust Blower without Motor"><img src="dwnld\karan\7-1.jpg">
+                                                    <p>Saw Dust Blower (Without Motor)</p>
+                                                </a>
+                                                <a class="kkk" class="example-image-link" href="dwnld/karan/Saw Dust Blower with Motor.jpg" data-lightbox="karan" data-title="Saw Dust Blower with Motor"><img src="dwnld\karan\7-2.jpg">
+                                                    <p>Saw Dust Blower (With Motor)</p>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <h2>(4) SHARPEX : Sharpex Engineering Works</h2>
+                                    <div class="sharpex">
+                                        <ul>
+                                            <li>
+                                                <a class="sss" class="example-image-link" href="dwnld/sharpex/Chain-Saw-One-Man-Electric1.jpg" data-lightbox="sharpex" data-title="Chain Saw (One Man Electric)"><img src="dwnld\sharpex\1.jpg">
+                                                    <p>Chain Saw (One Man Electric)</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="sss" class="example-image-link" href="dwnld/sharpex/chainsaw_twoman_elec_ctr350.jpg" data-lightbox="sharpex" data-title="Chain Saw (Two Man Electric)"><img src="dwnld\sharpex\2.jpg">
+                                                    <p>Chain Saw (Two Man Electric)</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="sss" class="example-image-link" href="dwnld/sharpex/3.jpg" data-lightbox="sharpex" data-title="Chain Saw Sharpner Machine"><img src="dwnld\sharpex\3.jpg">
+                                                    <p>Chain Saw Sharpner Machine</p>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <h2>(5) "VIKRAM" Brand ISO C.E. Mark Electric Motor </h2>
+                                    <div class="vikram">
+                                        <ul>
+                                            <li>
+                                                <a class="vvv" class="example-image-link" href="dwnld/vikram/Electric Motor.jpg" data-lightbox="vikram" data-title="Electric Motor"><img src="dwnld\vikram\Electric Motor.jpg">
+                                                    <p>Electric Motor</p>
+                                                </a>
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+                                    <h2>(6) "ANIL" Brand Wood Cutting Band Saw Blade</h2>
+                                    <div class="anil">
+                                        <ul>
+                                            <li>
+                                                <a class="aaa" class="example-image-link" href="dwnld/anil/blade.jpg" data-lightbox="anil" data-title="Blade"><img src="dwnld\anil\blade.jpg">
+                                                    <p>Blade</p>
+                                                </a>
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <!-- // End Tab Side // -->
+                    </div>
+                    <script src="dist/js/lightbox-plus-jquery.min.js"></script>
+
+                </div>
+                <!-- // End About Section // -->
+            </div>
+
+            <div id="gallery_call">
+
+            </div>
+
+            <div id="aboutus_call">
+
+            </div>
+
+            <div id="contactus_call">
+
+            </div>
+
+            <div id="footer_call">
+                <!-- \\ Begin Footer \\-->
+                <footer>
+                    <div class="Cntr">
+                        <p>COPYRIGHT @ Nirmal Engineers 2016 </p>
+
+                        <p class="developer">Develop By : S & T Developer.</p>
+                    </div>
+                </footer>
+                <!-- // End Footer // -->
+            </div>
+
+        </div>
+        <!-- // End Container // -->
+
+    </div>
+    <!-- // End Layout Frame // -->
+</div>
+<!-- // End Design Holder // -->
+<!--<div id="loader-wrapper">-->
+    <!--<div id="loader"></div>-->
+
+    <!--<div class="loader-section section-left"></div>-->
+    <!--<div class="loader-section section-right"></div>-->
+
+<!--</div>-->
+
+<!-- <<Attched Javascripts>> -->
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.sudoSlider.min.js"></script>
+<script type="text/javascript" src="js/global.js"></script>
+<script type="text/javascript" src="js/modernizr.js"></script>
+
+
+<!--jquery and ajax for load page into div with timing-->
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.ajax({
+            url:'gallery.html',
+            method:'post',
+            data:'',
+            success: function (result) {
+                $("#gallery_call").html(result);
+                setTimeout(call_ajax_1  , 2000);
+            }
+        });
+        function call_ajax_1(){
+            $.ajax({
+                url:'aboutus.html',
+                method:'post',
+                data:'',
+                success: function (result) {
+                    $("#aboutus_call").html(result);
+                    setTimeout(call_ajax_2   , 2000);
+                }
+            });
+        }
+        function call_ajax_2(){
+            $.ajax({
+                url:'contactus.html',
+                method:'post',
+                data:'',
+                success: function (result) {
+                    $("#contactus_call").html(result);
+                    //setTimeout(call_ajax_3   , 2000);
+                }
+            });
+        }
+
+        });
+</script>
+
+<script type="text/javascript">
+    function phpmail() {
+        var name = document.form123.name.value;
+        var city = document.form123.city.value;
+        var email = document.form123.email.value;
+        var number = document.form123.number.value;
+        var message = document.form123.message.value;
+        if (name == "" || name == null) {
+            //alert("Name Required");
+            document.getElementById("msg_name").innerHTML = "* Name is required.";
+            return false;
+        } else {
+            document.getElementById("msg_name").innerHTML = "";
+        }
+        if (city == "" || city == null) {
+            document.getElementById("msg_city").innerHTML = "* City is required.";
+            return false;
+        } else {
+            document.getElementById("msg_city").innerHTML = "";
+        }
+        if (email == "" || email == null) {
+            document.getElementById("msg_email").innerHTML = "* Email is required.";
+            return false;
+        } else {
+            document.getElementById("msg_email").innerHTML = "";
+        }
+        if (number == "" || number == null) {
+            document.getElementById("msg_number").innerHTML = "* Contact is required.";
+            return false;
+        } else {
+            document.getElementById("msg_number").innerHTML = "";
+        }
+        if (message == "" || message == null) {
+            document.getElementById("msg_message").innerHTML = "* Message is required.";
+            return false;
+        } else {
+            document.getElementById("msg_message").innerHTML = "";
+        }
+
+
+    }
+</script>
+
+</body>
+</html>
